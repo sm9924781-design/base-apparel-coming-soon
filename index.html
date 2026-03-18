@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Base Apparel | Coming Soon</title>
+</head>
+<body>
+
+  <main class="container">
+    <div class="content-side">
+      <header>
+        <img src="./images/logo.svg" alt="logo" class="logo">
+      </header>
+      
+      <section class="text-content">
+        <h1><span>We're</span> coming soon</h1>
+        <p>Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+        <form id="email-form" novalidate>
+          <div class="input-group">
+            <input type="email" id="email-input" placeholder="Email Address">
+            <img src="./images/icon-error.svg" class="error-icon" id="error-icon" alt="Error">
+            <button type="submit" id="submit-btn">
+              <img src="./images/icon-arrow.svg" alt="Submit">
+            </button>
+          </div>
+          <p class="error-message" id="error-message">Please provide a valid email</p>
+        </form>
+      </section>
+    </div>
+
+    <div class="image-side"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
